@@ -41,8 +41,7 @@ var123
 
 ### Functions
 
-Functions must start with either a lambda `λ` or a more convenient backslash `\`.
-
+Functions must start with either a lambda `λ` or a more convenient backslash `\`.\
 The parameter and body are separated with a dot `.`.
 
 ```
@@ -65,8 +64,7 @@ The interpreter also supports multiple parameters, to do this, have the paramete
 
 ### Applications
 
-Applications are represented by two expressions separated with a space.
-
+Applications are represented by two expressions separated with a space.\
 If the first expression is a lambda, you must wrap it in parentheses, otherwise, the second expression is interpreted as part of its body.
 
 
@@ -121,8 +119,7 @@ To check the expression assigned to a name, you can use the command `:info`.
 
 ### Recursion
 
-Because of Haskell's [lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation), an expression assigned to a name is not evaluated until the name is used.
-
+Because of Haskell's [lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation), an expression assigned to a name is not evaluated until the name is used.\
 This means you can't do recursion by simply using the name you're defining in its expression.
 
 ```
